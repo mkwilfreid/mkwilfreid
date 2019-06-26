@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif sans-serif;
+  background-color: #eeeeee
+}
+
+a, a:hover{
+  color: #4d7e86
+}
+p {
+  font-size: 13px;
+  font-weight: 400
+}
+
+h5.headline {
+  font-size: 18px;
+  padding: 15px 15px 15px 10px;
+  margin: 0px;
+  color: #333333;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #e6e6e6;
+  text-transform: uppercase
+}
+
+.title {
+  font-size: 18px;
+  padding: 15px 15px 15px 0px;
+  margin: 0px;
+  color: #333333;
+  letter-spacing: 1px;
+  text-transform: uppercase
+}
+
+.side-bar .contact a{
+ padding: 10px
+} 
+
+.paragraph-text {
+  padding-top: 15px;
+}
+.paragraph-bottom {
+  padding-bottom: 25px;
+}
+
+/* Side Bar */
+
+.side-bar .me li span{
+  width: 40%;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold
+}
+
+.main-content .details li span{
+  width: 40%;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold
+}
+
+.side-bar .me, .main-content .details {
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.side-bar li, .main-content .details li {
+  list-style: none
+}
+
+.side-bar .attachment {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.side-bar .attachment p {
+  padding: 5px;
+  background-color: #e6e6e6;
+  font-weight: 550
+    /* border: 1px solid */
+}
+
+.side-bar .attachment p i, .side-bar .social li i {
+  color: #4d7e86;
+}
+
+.side-bar .attachment p .avant {
+  padding-right: 15px;
+  padding-left: 5px;
+}
+
+.side-bar .attachment p .apres {
+  float: right;
+  padding: 5px;
+}
+.side-bar .social ul li{
+  display: inline;
+  padding-top: 2px;
+  padding-left: 15px;
+  margin: 0px
+}
+
+/* Main Content */
+
+.main-content .details {
+  padding: 0px 0px 20px 0px;
+}
+
+/* Experience */
+.resume {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.side-bar, .main-content{
+  background: #f9f9f9
+}
+.side-bar, .main-content{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.resume h3 {
+  margin-bottom: 20px;
+}
+
+.timeline {
+  list-style-type: none;
+  position: relative
+}
+
+.timeline:before {
+  content: '';
+  background: #4d7e86;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 1;
+}
+
+.timeline li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.timeline li h4 {
+  background-color: #4d7e86;
+  padding: 5px 0 5px 2px;
+  column-rule-color: #fff;
+  font-size: 15px;
+  color: #fff
+}
+
+.timeline li:before {
+  content: '';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #4d7e86;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 1
+}
+
+.skills .card-title {
+  font-size: 18px;
+}
+
+.skills .card-body {
+  font-size: 13px;
+}
+
+.skills .card-header h4 {
+  font-size: 16px;
+}
